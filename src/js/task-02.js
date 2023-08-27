@@ -1,13 +1,13 @@
-function task2() {
-    const ingredients = [
+const ingredients = [
     'Potatoes',
     'Mushrooms',
     'Garlic',
     'Tomatos',
     'Herbs',
     'Condiments',
-  ];
-
+];
+  
+function task2() {    
   const list = document.querySelector('#ingredients');
   const newArr = [];
   ingredients.forEach((el) => {
